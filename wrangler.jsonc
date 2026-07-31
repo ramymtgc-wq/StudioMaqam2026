@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "studio-maqam-booking",
+  "compatibility_date": "2026-07-31",
+  "pages_build_output_dir": "./public",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "studio-maqam-booking",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "PAYMENTS",
+      "bucket_name": "studio-maqam-payments"
+    }
+  ],
+  "vars": {
+    "EVENT_ID": "maqam-2026-09-12",
+    "EVENT_TITLE": "Maqam 2026",
+    "EVENT_DATE": "2026-09-12",
+    "EVENT_DOORS": "17:00",
+    "EVENT_STARTS": "18:00",
+    "EVENT_VENUE": "Saint George Theatre",
+    "EVENT_LOCATION_URL": "https://maps.app.goo.gl/vFuSmRsriVheZLcb7",
+    "PAYMENT_LABEL": "InstaPay",
+    "PAYMENT_URL": "https://ipn.eg/S/eslamibrahimjr/instapay/8LlMRD",
+    "PAYMENT_HELP": "Pay via InstaPay, then upload screenshot proof.",
+    "TURNSTILE_SITE_KEY": "",
+    "CURRENCY": "EGP",
+    "GROUND_PRICE": "300",
+    "UPPER_PRICE": "500",
+    "BRAND_NAME": "Maqam Studio"
+  }
+}
